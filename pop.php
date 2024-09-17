@@ -73,14 +73,14 @@
 
         <?php
         $numero = $_POST['numprimo'];
-        $numprim = 0;
+        $numprimo = 0;
 
         for($contador = 1; $contador<=$numero; $contador++){
             if($numero % $contador == 0){
-                $numPrimo = $numPrimo + 1;
+                $numprimo = $numprimo + 1;
             }
         }
-        if($numero == 1 or $numPrimo == 2){
+        if($numero == 1 or $numprimo == 2){
             echo "El numero ".$numero." es primo";
         }
         else{
